@@ -1,4 +1,4 @@
-
+//gps use uart so trasmit data ca be fetched and decord in to this method get the loction coordinates
 #include <SoftwareSerial.h>
 SoftwareSerial m(2, 3);//rx 2 tx 3
 void setup() {
